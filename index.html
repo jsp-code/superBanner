@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display:flex;
+             font-family: Helvetica, sans-serif;
+             font-size: xx-large;
+             background-color: black;
+             color: #fff;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             width: 100%;
+             height: 100vh;">
+    <h1>superBanner</h1>
+    <div style="display:flex;flex-direction: row;width: 100%;height: 50vw;position: relative;">
+        <div id="interface" style="position: absolute;
+                                   display: flex;
+                                   flex-direction: row;
+                                   height: 100%;
+                                   width: 100%;
+                                   align-items: center;
+                                   justify-content: center;">
+            <button id="b_left"
+                    style="height: 15%;
+                           width: 15%;
+                           margin-left:0;
+                           margin-right:auto;
+                           font-size: 30px;
+                           background-color: transparent;
+                           background-image: url(./svg/left_but.svg);
+                           background-size: 100% 100%;
+                           background-repeat: no-repeat;
+                           border: none;
+                           ">
+
+            </button> 
+            <button id="b_right"
+                    style="height: 15%;
+                           width: 15%;
+                           margin-left:auto;
+                           margin-right:0;
+                           font-size: 30px;
+                           background-color: transparent;
+                           background-image: url(./svg/right_but.svg);
+                           background-size: 100% 100%;
+                           background-repeat: no-repeat;
+                           border: none;
+                           ">
+
+            </button>
+        </div>
+        
+        <canvas id="teste"></canvas>
+    </div>
+    <div>image taken from pixabay</div>
+    <div>imagens retiradas do pixabay</div>
+    <script src="./obj_banner.js"></script>
+    <script src="./banner.js"></script>
+</body>
+</html>
